@@ -35,7 +35,7 @@ The signal path has five main stages:
 
 ### Filter design and simulation
 
-I simulated several LC filter designs in LTspice to compare frequency response before finalizing components. I compared different combinations of series and parallel LC tuners with L = 10mH and C = 4.7pF or 5pF, and ultimately chose a design with 2 LC pairs shunted to ground with 1 LC pair in series with the top nodes of the previous 2 pairs, as it gave me the highest theoretical gain of roughly 20 dB.
+I simulated several LC filter designs in LTspice to compare frequency response before finalizing components. I compared different combinations of series and parallel LC tuners with L = 10mH and C = 4.7pF or 5pF, and ultimately chose a design with 2 LC pairs shunted to ground with 1 LC pair in series with the top nodes of the previous 2 pairs, as it gave me the highest theoretical gain of roughly 12 dB.
 
 ![LTspice frequency response](simulations/RF_Freq_Response.png)
 
