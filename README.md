@@ -66,7 +66,7 @@ The antenna had to meet a size constraint of 15cm. I chose to design the antenna
 | Resistors | 10 Meg | 2 | Biasing |
 | High Impedance Earpiece | 20 Meg | 1 | Audio output |
 | Antenna | 15cm, 22 AWG | 1 | Antenna |
-| Breadboard | 16.51 x 5.49 x 0.99 cm | 1 | Prototyping |
+| Breadboard | 16.51 x 5.49 x 0.99 cm | 1 | Circuit building |
 
 ## Tools Used
 
