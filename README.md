@@ -98,7 +98,7 @@ The antenna had to meet a size constraint of 15cm. I chose to design the antenna
 radio-receiver/
 ├── README.md
 ├── docs/
-│   └── images/        
+├── images/        
 ├── schematics/        
 ├── simulations/       
 └── LICENSE
