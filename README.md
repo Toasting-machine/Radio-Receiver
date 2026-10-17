@@ -9,7 +9,7 @@ An AM radio receiver built from discrete components on a breadboard, including a
 ## Highlights
 
 - Designed the full receiver circuit, from antenna through filtering to audio output, and got it fully working.
-- Simulated multiple LC filter designs in LTspice before building, to choose an effective one with a resonant frequency of ~730 kHz.
+- Simulated multiple LC filter designs in LTspice before building, to choose an effective one with a theoretical resonant frequency of ~750 kHz.
 - Cascaded additional BJT amplifier stages ahead of the earpiece, with a total gain of 56.77 dB.
 - Built an antenna that fits within the 15 cm size constraint I set for myself.
 
