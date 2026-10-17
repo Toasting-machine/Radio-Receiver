@@ -49,9 +49,7 @@ The antenna had to meet a size constraint of 15cm. I chose to design the antenna
 
 ## Schematic
 
-![Circuit schematic](schematics/radio schematic rev 7 - FINAL-1.png)
-
-Full schematic: [`schematics/radio-receiver-schematic.pdf`](schematics/radio-schematic-rev-7.pdf)
+![Circuit schematic](schematics/radio_schematic_rev7_FINAL.png)
 
 ## Bill of Materials
 
@@ -66,8 +64,8 @@ Full schematic: [`schematics/radio-receiver-schematic.pdf`](schematics/radio-sch
 | Resistors | 0.1 Meg | 2 | Audio amplification |
 | Resistors | 1 Meg | 1 | Envelope detection |
 | Resistors | 10 Meg | 2 | Biasing |
-| Earpiece | High impedance | 1 | Audio output |
-| Wire / antenna | 15cm, 22 AWG | 1 | Antenna |
+| High Impedance Earpiece | 20 Meg | 1 | Audio output |
+| Antenna | 15cm, 22 AWG | 1 | Antenna |
 | Breadboard | 16.51 x 5.49 x 0.99 cm | 1 | Prototyping |
 
 ## Tools Used
@@ -90,9 +88,9 @@ Full schematic: [`schematics/radio-receiver-schematic.pdf`](schematics/radio-sch
 
 ## Future Improvements
 
-- Move the design from breadboard to a custom PCB in KiCad
-- Add volume control
-- Add station selection
+- Move the design from breadboard to a custom PCB in KiCad.
+- Add volume control.
+- Add station selection.
 
 ## Repository Structure
 
