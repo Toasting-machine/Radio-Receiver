@@ -45,8 +45,7 @@ Initially the audio at the earpiece was too quiet. I added 2 extra BJT amplifier
 
 ### Antenna
 
-The antenna had to meet a size constraint of 15cm. I chose to design the antenna as a monopole antenna made from 22 AWG wire. I chose this design over other designs because my antenna only needed to be good enough to capture some signal, as I was going to amplify the signal later in the circuit anyway. 
-
+The antenna had to meet a size constraint of 15cm. I chose to design the antenna as a monopole antenna made from 22 AWG wire. I chose this design over other designs because it was the simplest design which can still receive RF signals.
 ## Schematic
 
 ![Circuit schematic](schematics/radio_schematic_rev7_FINAL.png)
