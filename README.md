@@ -60,10 +60,10 @@ The antenna had to meet a size constraint of 15cm. I chose to design the antenna
 | Capacitor | 104pF | 1 | Envelope detection |
 | Capacitor | 1uF | 3 | Coupling |
 | Diode | 1N34 | 1 | Detection |
-| Resistors | 0.1 Meg | 2 | Audio amplification |
-| Resistors | 1 Meg | 1 | Envelope detection |
-| Resistors | 10 Meg | 2 | Biasing |
-| High Impedance Earpiece | 20 Meg | 1 | Audio output |
+| Resistors | 0.1 MΩ | 2 | Audio amplification |
+| Resistors | 1 MΩ | 1 | Envelope detection |
+| Resistors | 10 MΩ | 2 | Biasing |
+| High Impedance Earpiece | 20 MΩ | 1 | Audio output |
 | Antenna | 15cm, 22 AWG | 1 | Antenna |
 | Breadboard | 16.51 x 5.49 x 0.99 cm | 1 | Circuit building |
 
@@ -82,7 +82,7 @@ The antenna had to meet a size constraint of 15cm. I chose to design the antenna
 ## Challenges and What I Learned
 
 - **Station selection:** On one of my first prototypes, I heard many different radio stations all at once. I was able to fix this by cascading multiple LC filters together, as I previously was only using 1 LC pair to filter the radio stations.
-- **No audio:** On one of my earlier prototypes, I was only hearing very weak static. I was able to fix this by changing the values for the RC envelope detector to 104 pF and 1 Meg respectively, and by cascading 1 extra amplifier stage.
+- **No audio:** On one of my earlier prototypes, I was only hearing very weak static. I was able to fix this by changing the values for the RC envelope detector to 104 pF and 1 MΩ respectively, and by cascading 1 extra amplifier stage.
 - **Takeaway:** I learned that ideal circuits may vary widely when comapared to their real life implementations, and that my designs must take into considerations factors that may be ignored in designing circuits in an ideal environment.
 
 ## Future Improvements
